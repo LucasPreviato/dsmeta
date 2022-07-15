@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
-body {
+*{
+font-family: "Roboto", sans-serif;  
+box-sizing: border-box;  
 margin: 0;
+padding: 0;
+  @apply bg-fuchsia-700
 }
+
+a,
+a:hover, 
+a:visited {
+  color: unset;
+  text-decoration: none;
+}
+
