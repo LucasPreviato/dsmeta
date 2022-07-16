@@ -5,9 +5,9 @@ export function SalesCard() {
 
   return (
     <section className="pt-10 pr-2">
-      <div className="w-full max-w-4xl m-auto pt-7 pr-2">
+      <div className="w-full max-w-4xl m-auto pt-7 pr-2 bg-[#283142] ">
         <div className="bg-[#283142] ">
-          <h2 className=" text-[#676fff] bg-[#283142] text-2xl mb-5">Vendas</h2>
+          <h2 className=" text-[#676fff]  text-2xl mb-5">Vendas</h2>
 
 
           <div className="mb-4 max-w-xs">
