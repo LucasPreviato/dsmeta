@@ -1,5 +1,6 @@
 import { NotificationButton } from "../NotificationButton";
-
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 
 export function SalesCard2() {
@@ -13,12 +14,22 @@ export function SalesCard2() {
             <h2 className="text-[#676fff] text-2xl leading-none mb-5">Vendas</h2>
             <div>
               <div className="mb-4 max-w-[300px]">
-                <input className="w-full h-11 bg-[#1b2531] border-solid border-2 border-[#384459]
-                rounded-md py-0 px-5 text-lg leading-none text-[#9aaabe]" type="text" />
+                <DatePicker
+                  selected={new Date()}
+                  onChange={(date: Date) => { }}
+                  className="w-full h-11 bg-[#1b2531] border-solid border-2 border-[#384459]
+                  rounded-md py-0 px-5 text-lg leading-none text-[#9aaabe]"
+                  dateFormat="dd/MM/yyyy"
+                />
               </div>
               <div className="mb-4 max-w-[300px]">
-                <input className="w-full h-11 bg-[#1b2531] border-solid border-2 border-[#384459]
-                rounded-md py-0 px-5 text-lg leading-none text-[#9aaabe]" type="text" />
+                <DatePicker
+                  selected={new Date()}
+                  onChange={(date: Date) => { }}
+                  className="w-full h-11 bg-[#1b2531] border-solid border-2 border-[#384459]
+                  rounded-md py-0 px-5 text-lg leading-none text-[#9aaabe]"
+                  dateFormat="dd/MM/yyyy"
+                />
               </div>
             </div>
             <div>
